@@ -1,0 +1,25 @@
+.elements__table {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  display: grid;
+  grid: repeat(6, 1fr) / auto;
+  gap: 20px;
+  justify-items: center;
+}
+
+@media (min-width: 768px) {
+  .elements__table {
+    grid: repeat(3, 1fr) / repeat(2, 282px);
+    gap: 20px 17px;
+    max-width: 581px;
+  }
+}
+
+@media (min-width: 1284px) {
+  .elements__table {
+    grid: repeat(2, 1fr) / repeat(3, 1fr);
+    gap: 20px 17px;
+    max-width: 880px;
+  }
+}

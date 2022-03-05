@@ -1,0 +1,25 @@
+.profile__info {
+  min-width: 282px;
+  min-height: 54px;
+  margin: 22.25px 0 36px;
+  display: grid;
+  grid: auto auto / 1fr auto 1fr;
+  gap: 14px 10px;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .profile__info {
+    min-width: 350px;
+    height: 73px;
+    grid: auto auto / auto 1fr;
+    gap: 16px 18px;
+    margin-left: 27px;
+  }
+}
+
+@media (min-width: 1284px) {
+  .profile__info {
+    margin-left: 0;
+  }
+}

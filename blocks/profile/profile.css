@@ -1,0 +1,15 @@
+.profile {
+  min-width: 282px;
+  max-width: 880px;
+  margin: 0 auto;
+  padding-top: 38.25px;
+  display: grid;
+}
+
+@media (min-width: 768px) {
+  .profile {
+    padding-top: 40px;
+    grid: auto / 168.75px 1fr 1fr;  
+    align-items: center;
+  }
+}

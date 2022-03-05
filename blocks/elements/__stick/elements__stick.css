@@ -1,0 +1,8 @@
+.elements__stick {
+  height: 79px;
+  border-radius: 0 0 10px 10px;
+  background-color: #ffffff;
+  display: grid;
+  grid: auto / 1fr 1fr;
+  align-items: center;
+}

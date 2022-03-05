@@ -1,0 +1,21 @@
+.elements__button {
+  width: 22px;
+  height: 19px;
+  background-color: transparent;
+  border: 0;
+  box-sizing: border-box;
+  background-image: url(../../../images/Vector-heart.svg);
+  margin: 0 20px 0 0;
+  padding: 0;
+  /* background-repeat: no-repeat; */
+  /* background-position: 50% 50%; */
+  justify-self: end;
+  /* align-self: end; */
+  transition: opacity .4s ease;
+}
+  
+.elements__button:hover { 
+    cursor: pointer;
+    opacity: 0.6;
+  }
+  
