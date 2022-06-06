@@ -1,0 +1,8 @@
+.popup__container {
+  width: 282px;
+  height: 358px;
+  margin: 0 auto;
+  padding: 0;
+  display: grid;
+  grid: 36px 322px / auto;
+}

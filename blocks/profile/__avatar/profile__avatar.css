@@ -1,8 +1,9 @@
 .profile__avatar {
-  border-radius: 50%;
-  widht: 168.75px;
-  height: 127.5px;
+  height: 120px;
+  width: 120px;
   margin: 0 auto;
+  overflow: hidden;
+  border-radius: 50%;
 }
 
 @media (min-width: 768px) {
@@ -11,7 +12,7 @@
   }
 }
 
-@media (min-width: 1284px) {
+@media (min-width: 1280px) {
   .profile__avatar {
     margin: 0;
   }

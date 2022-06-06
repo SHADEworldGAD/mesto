@@ -10,16 +10,10 @@
 
 @media (min-width: 768px) {
   .profile__info {
-    min-width: 350px;
-    height: 73px;
+    min-width: 336px;
+    min-height: 73px;
     grid: auto auto / auto 1fr;
     gap: 16px 18px;
-    margin-left: 27px;
-  }
-}
-
-@media (min-width: 1284px) {
-  .profile__info {
-    margin-left: 0;
+    margin: 22px 0 25px 30px;
   }
 }

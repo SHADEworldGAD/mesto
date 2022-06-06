@@ -16,7 +16,7 @@
   }
 }
 
-@media (min-width: 1284px) {
+@media (min-width: 1280px) {
   .elements__table {
     grid: repeat(2, 1fr) / repeat(3, 1fr);
     gap: 20px 17px;
