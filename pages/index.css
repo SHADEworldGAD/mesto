@@ -30,7 +30,7 @@
 @import url(../blocks/popup/__textinput/popup__textinput.css);
 @import url(../blocks/popup/__textinput-line/popup__textinput-line.css);
 @import url(../blocks/popup/__overlay/popup__overlay.css);
-
+/* 
 ul,
 li,
 p,
@@ -41,9 +41,13 @@ img {
   border: 1px solid red;
 }
 
-/* div {
+div {
   border: 1px solid orange;
-} */
+}
+
+form {
+  border: 1px solid yellow;
+}
 
 header {
   border: 1px solid green;
@@ -51,4 +55,4 @@ header {
 
 section {
   border: 1px solid rgb(43, 61, 219);
-}
+} */

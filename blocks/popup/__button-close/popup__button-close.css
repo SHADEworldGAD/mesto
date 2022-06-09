@@ -4,13 +4,21 @@
   background-color: transparent;
   border: 0;
   box-sizing: border-box;
-  background-image: url(../../../images/Close-Icon.png);
+  background-image: url(../../../images/Close-Icon1.svg);
   margin: 0;
   padding: 0;
   display: flex;
   margin-left: auto;
   transition: opacity .4s ease;
   z-index: 1;
+}
+
+@media (min-width: 768px) {
+  .popup__button-close {
+    width: 32px;
+    height: 32px;
+    background-image: url(../../../images/Close-Icon.svg);
+  }
 }
 
 .popup__button-close:hover {

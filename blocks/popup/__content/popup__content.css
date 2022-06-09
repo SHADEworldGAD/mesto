@@ -1,9 +1,18 @@
 .popup__content {
-  margin: 0;
-  padding: 0;
   width: 282px;
   height: 322px;
+  margin: 0;
+  padding: 0;
   border-radius: 10px 10px 10px 10px;
   background-color: #ffffff;
   z-index: 1;
+  left: 19px;
+  top: 123px;
+}
+
+@media (min-width: 768px) {
+  .popup__content {
+    width: 430px;
+    height: 330px;
+  }
 }
