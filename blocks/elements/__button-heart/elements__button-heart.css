@@ -18,10 +18,3 @@
   cursor: pointer;
   opacity: 0.5;
 }
-
-.elements__button-heart:active {
-  background-image: url(../../../images/Union.svg);
-  cursor: pointer;
-  opacity: 1;
-
-}

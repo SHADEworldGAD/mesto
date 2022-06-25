@@ -6,7 +6,6 @@
   box-sizing: border-box;
   background-image: url(../../../images/Close-Icon1.svg);
   margin: 0;
-  padding: 0;
   display: flex;
   margin-left: auto;
   transition: opacity .4s ease;
@@ -18,6 +17,7 @@
     width: 32px;
     height: 32px;
     background-image: url(../../../images/Close-Icon.svg);
+    grid-area: button;
   }
 }
 

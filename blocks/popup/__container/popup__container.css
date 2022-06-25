@@ -1,19 +1,23 @@
 .popup__container {
   width: 282px;
-  height: 358px;
+  min-height: 358px;
   margin: 0 auto;
   padding-top: 87px;
   display: grid;
-  grid: 20px 322px / auto;
-  gap: 16px;
+  grid: 36px 92px 230px / auto;
+  z-index: 2;
 }
 
 @media (min-width: 768px) {
   .popup__container {
-    width: 430px;
-    height: 330px;
+    width: 470px;
+    min-height: 370px;
     padding-top: 155px;
-    grid: 32px 330px / 472px;
-    gap: 8px;
+    grid: 40px 81px 249px / 430px 38px;
+    column-gap: 8px;
+    grid-template-areas:
+      "button button"
+      "title none"
+      "form none";
   }
 }
