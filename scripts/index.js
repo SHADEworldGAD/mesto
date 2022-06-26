@@ -10,8 +10,8 @@ let nameProfileElement = profileElement.querySelector('.profile__title');
 let aboutmeProfileElement = profileElement.querySelector('.profile__subtitle');
 
 function openPopup() {
-  nameProfileElement.textContent = nameInput.value;
-  aboutmeProfileElement.textContent = jobInput.value;
+  nameInput.value = nameProfileElement.textContent;
+  jobInput.value = aboutmeProfileElement.textContent;
   popupElement.classList.add('popup_opened');
 }
 
